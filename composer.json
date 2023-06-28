@@ -1,0 +1,22 @@
+{
+    "name": "zagonico/module-sitemapexcludecmspage",
+    "description": "Allow to selectively exclude CMS pages from Magento Sitemap",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zagonico",
+            "email": "zago.nicola@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zagonico\\SitemapExcludeCmsPage\\": ""
+        }
+    }
+}
